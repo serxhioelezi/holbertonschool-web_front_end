@@ -857,7 +857,7 @@ ul.row {
         margin:0;
     }
 
-    main>form>fieldset{
+    fieldset{
         display:flex;
         flex-direction: column;
         justify-content: flex-start;
