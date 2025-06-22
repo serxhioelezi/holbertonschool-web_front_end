@@ -881,8 +881,8 @@ textarea{
     width:100%;
     padding: 1.2rem;
     line-height: 1;
-    border:1rem black;
-    background-color: white;
+    border:1rem solid var(--color-black);
+    background-color: var(--color-white);
     box-shadow: none;
     outline:0;
 }
@@ -897,7 +897,7 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus{
     border: 1rem solid var(--color-grey);
-    background-color: lightgrey;
+    background-color: var(--color-light-grey);
 }
 
 ::placeholder {
